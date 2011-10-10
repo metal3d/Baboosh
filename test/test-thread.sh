@@ -1,6 +1,8 @@
 #!/bin/bash
-. ./baboosh.sh
-. ./threads.sh
+
+#import baboosh
+. $(dirname $0)/../src/baboosh.sh
+. $(dirname $0)/classes/threads.sh
 
 
 #MyThread is a Thread based class
@@ -11,7 +13,7 @@ MyThread=(
 
 MyThread::run(){
     echo "Run !"
-    local sleep_time=$((RANDOM/2000))
+    local sleep_time=$((RANDOM/2500))
     echo "I will work for $sleep_time seconds..."
     sleep $sleep_time
     echo "Stopped !"

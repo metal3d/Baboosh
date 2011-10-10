@@ -67,11 +67,11 @@ Simply put "baboosh.sh" file in a directory where you will create your script. T
     
     #trust me, he is human
     new Human jcvd "Jean-Claude Van Dame" 45
-    $jcvd.eat
-    $jcvd.sleep
+    jcvd.eat
+    jcvd.sleep
     
     #change age...
-    $jcvd.set_age 46
+    jcvd.set_age 46
 
 
 And yes you'll say "eval ???" - that's because Bash is restrictive (right now) and I didn't find any trick to force "aliases" to be interpreted with a dynamic part.
@@ -81,5 +81,6 @@ So, what you have to know:
 - set var is made by a meta call: $objectname.set_varname
 - you **must** get "this" reference ($1)
 - you **must** use ''eval'' to get value into method...
+- object name have no dollar "$" at name in script, this is not like "$this" in method
 
 That's all, for now...

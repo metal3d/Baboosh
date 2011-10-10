@@ -9,7 +9,7 @@ Stolen Idea ?
 
 You may say "ho god, he forked oobash project and said he is the creator !" - No... in fact there are a lot of projects that tries to implement OOP in bash. I made my own, and I discovered oobash_ today. I forked it thinking I could append my bet... but my solution is too different. But that's right, I took some ideas on oobash to change my own project.
 
-To be clear, I will try to help oobash project, but I chosen my way (another way) on my solution.
+To be clear, I will try to help oobash project, but I chosen my way (another way)
 
 .. _oobash: https://github.com/domachine/oobash
 

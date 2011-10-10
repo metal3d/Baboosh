@@ -1,6 +1,5 @@
 #!/bin/bash
 
-. ./baboosh.sh
 
 #Thread class
 #Implements start and join method

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #include baboosh ('source' can be replaced by '.')
-source $(dirname $0)/baboosh.sh
+source $(dirname $0)/../src//baboosh.sh
 
 #lets create a Human
 Human=(

@@ -32,12 +32,12 @@ Example ?
 
 Simply put "baboosh.sh" file in a directory where you will create your script. Then try something like this:
 
-.. code-block:: bash
-
+::
+    
     #!/bin/bash
-
+    
     source $(diraname $0)/baboosh.sj
-
+    
     #lets create a Human
     Human=(
         function eat
@@ -45,20 +45,20 @@ Simply put "baboosh.sh" file in a directory where you will create your script. T
         var name
         var age
     )
-
+    
     Human::__init__(){
         local this=$1; shift
-
+    
         eval $this.set_name $1
         eval $this.set_age $2
     }
-
+    
     Human::eat(){
         local this=$1; shift    
         local name=$(eval $this.name)
         echo $name is eating now...
     }
-
+    
     Human::sleep(){
         local this=$1; shift
         local name=$(eval $this.name)
@@ -69,7 +69,7 @@ Simply put "baboosh.sh" file in a directory where you will create your script. T
     new Human jcvd "Jean-Claude Van Dame" 45
     $jcvd.eat
     $jcvd.sleep
-
+    
     #change age...
     $jcvd.set_age 46
 

@@ -1,58 +1,47 @@
 #!/bin/bash
 
-. ./baboosh.sh
+#include baboosh ('source' can be replaced by '.')
+source $(dirname $0)/baboosh.sh
 
-### ---- TEST ---- ###
-
-#code de test
-OBJ=(
-    function test1
-    function tryself
-    var      var1
+#lets create a Human
+Human=(
+    function eat
+    function sleep
+    var name
+    var age
 )
 
-OBJ::__init__(){
-    local this=$1; shift;
-    echo "Constructor found"
-
-    if [[ x$@ != "x" ]]; then
-        echo "arguments: "$@
-    fi
-}
-
-OBJ::test1(){
+Human::__init__(){
     local this=$1; shift
-    echo "youpi --> $this"
+
+    eval $this.set_name "$1"
+    eval $this.set_age "$2"
 }
 
-OBJ::tryself(){
-    local this=$1; shift;
-    echo $(eval $this.var1)
-
-    eval $this.set_var1 "Autre..."
-
+Human::eat(){
+    local this=$1; shift
+    local name=$(eval $this.name)
+    echo $name is eating now...
 }
 
-#create o1 object class OBJ
-new OBJ o1
+Human::sleep(){
+    local this=$1; shift
+    local name=$(eval $this.name)
+    echo $name is sleeping now...
+}
 
-#set var1
-o1.set_var1 "La variable qui tue"
+#trust me, he is human
+new Human jcvd 'Jean-Claude Van Dame' 45
 
-echo ">> calling o1.test1"
-o1.test1
+#call methods
+jcvd.eat
+jcvd.sleep
 
-echo ">> getting o1.var1:"
-echo $(o1.var1)
+#print age
+echo $(jcvd.name) is $(jcvd.age) years old
 
-echo ">> calling tryself..."
-o1.tryself
+#change age...
+jcvd.set_age 46
 
-echo ">> modified var1, try new call"
-o1.tryself
-
-
-#second object
-echo ">> Create another object, with args on constucutor"
-new OBJ o2 "arg1" "aeg2"
-
+#print age
+echo  Now: $(jcvd.name) is $(jcvd.age) years old

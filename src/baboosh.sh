@@ -58,15 +58,26 @@ new(){
         if [ $((_i%2)) -eq 0 ]; then
             _type="$data"
         else
-            if [[ $_type == "function" ]]; then
-                #link function to Class method sending current object
-                #as first argument
-                alias $obj.$data="$class::$data $obj"
-            else
-                #set aliases to set and get vars
-                alias $obj.$data='eval "echo $'${obj}__${data}'"'
-                alias $obj.set_$data="_meta_class_set_var $obj $data"
-            fi
+            case $_type in
+                function)
+                    #link function to Class method sending current object
+                    #as first argument
+                    alias $obj.$data="$class::$data $obj"
+                    ;;
+                var)
+                    #set aliases to set and get vars
+                    alias $obj.$data='eval "echo $'${obj}__${data}'"'
+                    alias $obj.set_$data="_meta_class_set_var $obj $data"
+                    ;;
+                extends)
+                    eval new $data $obj
+                     
+                    ;;
+                *)
+                    echo "$_type undefined"
+                    exit 1
+                    ;;
+            esac
         fi
         _i=$((_i+1))
     done

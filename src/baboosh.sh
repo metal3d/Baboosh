@@ -33,6 +33,20 @@ new(){
     local _type=""
     local _val=""
 
+    local _argv=""
+    local _argc=${#@}
+    local _init_args=""
+
+    #keep a nice arguments list to send to constructor
+    #remember that args begin at 1
+    _i=1
+    while [[ $_i < $((_argc+1)) ]]; do
+        _init_args=$_init_args" \"\$"$_i\"
+        _i=$((_i+1))
+    done
+
+    _i=0
+
     #get class elements
     meta=$( eval echo \${$class[@]}  )
 
@@ -60,7 +74,7 @@ new(){
     if [[ "$(type -t $class::__init__)" == "function" ]]; then
         #constructor found
         alias $obj.__init__="$class::__init__ $obj"
-        eval $obj.__init__  $@
+         #call constructor with args redecorated
+        eval $obj.__init__ $_init_args
     fi
 }
-

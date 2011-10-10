@@ -36,7 +36,8 @@ Simply put "baboosh.sh" file in a directory where you will create your script. T
     
     #!/bin/bash
     
-    source $(diraname $0)/baboosh.sh
+    #include baboosh ('source' can be replaced by '.')
+    source $(dirname $0)/baboosh.sh
     
     #lets create a Human
     Human=(

@@ -49,7 +49,7 @@ Types can be:
 .. caution:: ''extends'' must be the first elements on list !
 
 To create a human class, you can use this::
-
+    
     Human=(
         function birth
         function die
@@ -84,7 +84,7 @@ You must implement methods, this way::
 
 To use ''$this'' please see Tips_ section.
 
-Now, to instanciate a human named "john" is pretty simple::
+Now, to instantiate a human named "john" is pretty simple::
     
     new Human john
 
@@ -105,7 +105,7 @@ To set values, automatic setters should be used::
 
 This way, "name" property is set to "John".
 
-Properties are accessibles by ''eval'' (for now...)::
+Properties are accessible by ''eval'' (for now...)::
     
     echo $(john.name)
 
@@ -114,7 +114,7 @@ Keep in mind that property is in fact an alias to an ''echo command''. Calling '
 Constructor
 '''''''''''
 
-Constructor should not be declared in definition list, this is a special function named ''__new__''. You only have to implement::
+Constructor should not be declared in definition list, this is a special function named ''__init__''. You only have to implement::
     
     Human::__init__(){
         #here is a constructor    
@@ -136,11 +136,14 @@ It's possible to extend classes. For example, an Employee is an Human, so::
         echo "working..."
     }
 
-Now, Employee can birt, eat, sleep and die as Human declared those functions. Employee has got a name, as declared into Human class.
+Now, Employee can birth, eat, sleep and die as Human declared those functions. Employee has got a name, as declared into Human class.
 
-.. caution:: ''extends'' must be the **very first** element in declaration list
+.. caution:: Limitations 
+   
+   - ''extends'' must be the **very first** element in declaration list
+   - redeclaring a method overwrites the parent method. There is no way to access ''parent''
 
-As explained in Constructor_ section, Human::__new__ is called when you instanciate Employee.
+As explained in Constructor_ section, Human::__new__ is called when you instantiate Employee.
 
 
 Tips
@@ -156,7 +159,7 @@ Inside methods, ''this'' if passed as first argument, so you need to do::
 
 ''shift'' is used to unset "$1".
 
-"this" is now a variable. Not like ''john'' that is an alias. So, to play with properties, do that::
+"this" is now a variable unlike ''john'' which is an alias. So, to play with properties, do that::
     
     #set property
     eval $this.set_name "Other"
@@ -167,3 +170,8 @@ Inside methods, ''this'' if passed as first argument, so you need to do::
     #call method
     eval $this.methodName
 
+Copyright
+---------
+
+- Documentation is under LGPLv3
+- Baboosh scripts are under BSD Licence

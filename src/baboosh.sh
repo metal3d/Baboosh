@@ -15,9 +15,10 @@ _meta_class_set_var(){
     local obj=$1
     local varname=$2
     shift 2
-    local value=$@
 
-    alias ${obj}.${varname}="echo '$value'"
+    local value="$@"
+
+    alias ${obj}.${varname}="echo \"$value\""
 
 }
 

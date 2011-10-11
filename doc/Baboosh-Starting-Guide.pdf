@@ -1,0 +1,1283 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 5 0 R
+ /F5 6 0 R
+ /F6 7 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier-Oblique
+<< /BaseFont /Courier-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+5 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F5': class PDFType1Font 
+6 0 obj
+% Font Courier-Bold
+<< /BaseFont /Courier-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F6': class PDFType1Font 
+7 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F6
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+8 0 obj
+% Page dictionary
+<< /Contents 28 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 189.9236
+ 0 ]
+ /Rect [ 178.7229
+ 423.3736
+ 200.3929
+ 435.3736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+10 0 obj
+% Page dictionary
+<< /Annots [ 9 0 R ]
+ /Contents 29 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 768.0236
+ 0 ]
+ /Rect [ 133.2829
+ 220.3736
+ 187.7429
+ 232.3736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page3': class PDFPage 
+12 0 obj
+% Page dictionary
+<< /Annots [ 11 0 R ]
+ /Contents 30 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+13 0 obj
+% Page dictionary
+<< /Contents 31 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 27 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R14': class PDFCatalog 
+14 0 obj
+% Document Root
+<< /Outlines 16 0 R
+ /PageLabels 32 0 R
+ /PageMode /UseNone
+ /Pages 27 0 R
+ /Type /Catalog >>
+endobj
+% 'R15': class PDFInfo 
+15 0 obj
+<< /Author ()
+ /CreationDate (D:20111011140551-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Baboosh - OOP Bash) >>
+endobj
+% 'R16': class PDFOutlines 
+16 0 obj
+<< /Count 11
+ /First 17 0 R
+ /Last 26 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+17 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 699.0236
+ 0 ]
+ /Next 18 0 R
+ /Parent 16 0 R
+ /Title (About) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+18 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 618.0236
+ 0 ]
+ /Next 19 0 R
+ /Parent 16 0 R
+ /Prev 17 0 R
+ /Title (Importing) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+19 0 obj
+<< /Count 4
+ /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 400.6236
+ 0 ]
+ /First 20 0 R
+ /Last 23 0 R
+ /Next 24 0 R
+ /Parent 16 0 R
+ /Prev 18 0 R
+ /Title (Creating classes) >>
+endobj
+% 'Outline.11.0': class OutlineEntryObject 
+20 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 367.6236
+ 0 ]
+ /Next 21 0 R
+ /Parent 19 0 R
+ /Title (class definition) >>
+endobj
+% 'Outline.11.1': class OutlineEntryObject 
+21 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 703.8236
+ 0 ]
+ /Next 22 0 R
+ /Parent 19 0 R
+ /Prev 20 0 R
+ /Title (Methods declaration) >>
+endobj
+% 'Outline.11.2': class OutlineEntryObject 
+22 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 270.2236
+ 0 ]
+ /Next 23 0 R
+ /Parent 19 0 R
+ /Prev 21 0 R
+ /Title (Using properties) >>
+endobj
+% 'Outline.11.3': class OutlineEntryObject 
+23 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 19 0 R
+ /Prev 22 0 R
+ /Title (Constructor) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+24 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 550.8236
+ 0 ]
+ /Next 25 0 R
+ /Parent 16 0 R
+ /Prev 19 0 R
+ /Title (Inheritance) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+25 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 186.4236
+ 0 ]
+ /Next 26 0 R
+ /Parent 16 0 R
+ /Prev 24 0 R
+ /Title (Tips) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+26 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 572.6236
+ 0 ]
+ /Parent 16 0 R
+ /Prev 25 0 R
+ /Title (Copyright) >>
+endobj
+% 'R27': class PDFPages 
+27 0 obj
+% page tree
+<< /Count 4
+ /Kids [ 8 0 R
+ 10 0 R
+ 12 0 R
+ 13 0 R ]
+ /Type /Pages >>
+endobj
+% 'R28': class PDFStream 
+28 0 obj
+% page stream
+<< /Length 5210 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 133.8149 0 Td (Baboosh - OOP Bash) Tj T* -133.8149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 166.1774 0 Td (Using OOP in Bash) Tj T* -166.1774 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (About) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .392927 Tw (Baboosh is a simple script to include \(using ''source'' command or ''.'' command\) into your script to permit) Tj T* 0 Tw (to write your script with pseudo Oriented Object syntax.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 630.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Baboosh implements class with "one level" inheritance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Importing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (In you script, you can use) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf .25098 .501961 .501961 rg (#!/bin/bash) Tj T* /F4 10 Tf 0 0 0 rg (. /path/to/baboosh.sh) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 513.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If baboosh is in you script path, try this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 432.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf .25098 .501961 .501961 rg (#!/bin/bash) Tj T* /F4 10 Tf 0 0 0 rg (. ./baboosh.sh) Tj T*  T* /F3 10 Tf .25098 .501961 .501961 rg (#or) Tj T* /F4 10 Tf 0 0 0 rg (. ) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf 0 0 0 rg (dirname ) Tj .098039 .090196 .486275 rg ($0) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj /F4 10 Tf 0 0 0 rg (/baboosh.sh) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 412.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This includes scripts and set the "new" function.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Creating classes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 349.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (class definition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 331.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To create a class, you need to use a list. Each element is formed with: ''type name''.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 313.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Types can be:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 307.6236 cm
+Q
+q
+1 0 0 1 62.69291 307.6236 cm
+Q
+q
+1 0 0 1 62.69291 295.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (function: implements a method) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 289.6236 cm
+Q
+q
+1 0 0 1 62.69291 277.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (var : implements a property) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 271.6236 cm
+Q
+q
+1 0 0 1 62.69291 259.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (extends : set inheritance) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 259.6236 cm
+Q
+q
+1 0 0 1 62.69291 247.6236 cm
+Q
+q
+1 0 0 1 62.69291 176.6236 cm
+.960784 .960784 .862745 rg
+n 0 71 469.8898 -71 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 45 Tm  T* ET
+q
+1 0 0 1 16 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F6 12.5 Tf 15 TL (Caution!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (''extends'' must be the first elements on list !) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 71 m 469.8898 71 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 71 l S
+n 469.8898 0 m 469.8898 71 l S
+Q
+Q
+q
+1 0 0 1 62.69291 170.6236 cm
+Q
+q
+1 0 0 1 62.69291 152.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To create a human class, you can use this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 83.42362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (Human) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (birth) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (die) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (eat) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R29': class PDFStream 
+29 0 obj
+% page stream
+<< /Length 4379 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf 0 0 0 rg (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (sleep) Tj T* (    var name) Tj T* .4 .4 .4 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 685.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Methods declaration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 667.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You must implement methods, this way) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 442.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 216 re B*
+Q
+q
+BT 1 0 0 1 0 194 Tm 12 TL /F4 10 Tf 0 0 0 rg (Human::birth) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#getting "this" reference) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#each time you need $this, use an eval... see Tips section) Tj T* /F4 10 Tf .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* (Human::die) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#...) Tj T* /F4 10 Tf .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* (Human::eat) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#...) Tj T* /F4 10 Tf .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* (Human::sleep) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#...) Tj T* /F4 10 Tf .4 .4 .4 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 422.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (To use ''$this'' please see ) Tj 0 0 .501961 rg (Tips ) Tj 0 0 0 rg (section.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 404.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Now, to instantiate a human named "john" is pretty simple) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 371.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (new Human john) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 351.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (''john'' can birth, die, eat or sleep, like that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL (john.birth) Tj T* (john.sleep) Tj T* (jonh.eat) Tj T* (john.die) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 252.2236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Using properties) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 234.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To set values, automatic setters should be used) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (john.set_name ) Tj .729412 .129412 .129412 rg ("John") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 181.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This way, "name" property is set to "John".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 163.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Properties are accessible by ''eval'' \(for now...\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (echo) Tj 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf 0 0 0 rg (john.name) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 97.82362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.11332 Tw (Keep in mind that property is in fact an alias to an ''echo command''. Calling ''john.name'' will do ''echo) Tj T* 0 Tw ("John"''.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R30': class PDFStream 
+30 0 obj
+% page stream
+<< /Length 5044 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Constructor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .717485 Tw (Constructor should not be declared in definition list, this is a special function named ''__init__''. You only) Tj T* 0 Tw (have to implement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf 0 0 0 rg (Human::__init__) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#here is a constructor) Tj T* /F4 10 Tf .4 .4 .4 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 639.8236 cm
+Q
+q
+1 0 0 1 62.69291 568.8236 cm
+.960784 .960784 .862745 rg
+n 0 71 469.8898 -71 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 45 Tm  T* ET
+q
+1 0 0 1 16 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F6 12.5 Tf 15 TL (Note) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (inherited child class will call parent constructor implicitly.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 71 m 469.8898 71 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 71 l S
+n 469.8898 0 m 469.8898 71 l S
+Q
+Q
+q
+1 0 0 1 62.69291 562.8236 cm
+Q
+q
+1 0 0 1 62.69291 529.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Inheritance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 511.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (It's possible to extend classes. For example, an Employee is an Human, so) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 394.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (Employee) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    extends Human) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (work) Tj T* .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (Employee::work) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (echo) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("working...") Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 362.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.298735 Tw (Now, Employee can birth, eat, sleep and die as Human declared those functions. Employee has got a) Tj T* 0 Tw (name, as declared into Human class.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 350.6236 cm
+Q
+q
+1 0 0 1 62.69291 243.6236 cm
+.960784 .960784 .862745 rg
+n 0 107 469.8898 -107 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 81 Tm  T* ET
+q
+1 0 0 1 16 76 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F6 12.5 Tf 15 TL (Caution!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 52 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Limitations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 46 cm
+Q
+q
+1 0 0 1 16 46 cm
+Q
+q
+1 0 0 1 16 34 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (''extends'' must be the ) Tj /F2 10 Tf (very first ) Tj /F1 10 Tf (element in declaration list) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 16 28 cm
+Q
+q
+1 0 0 1 16 16 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (redeclaring a method overwrites the parent method. There is no way to access ''parent'') Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 16 16 cm
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 107 m 469.8898 107 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 107 l S
+n 469.8898 0 m 469.8898 107 l S
+Q
+Q
+q
+1 0 0 1 62.69291 237.6236 cm
+Q
+q
+1 0 0 1 62.69291 219.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (As explained in ) Tj 0 0 .501961 rg (Constructor ) Tj 0 0 0 rg (section, Human) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 198.4236 cm
+q
+Q
+Q
+q
+1 0 0 1 62.69291 165.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Remember to use ''$\(...\)'' to get vars, this is easier to work with values) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (the_name) Tj .4 .4 .4 rg (=) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf 0 0 0 rg (john.name) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 94.22362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Inside methods, ''this'' if passed as first argument, so you need to do) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R31': class PDFStream 
+31 0 obj
+% page stream
+<< /Length 2568 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 739.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 719.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (''shift'' is used to unset "$1".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 701.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ("this" is now a variable unlike ''john'' which is an alias. So, to play with properties, do that) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 584.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf .25098 .501961 .501961 rg (#set property) Tj T* /F4 10 Tf 0 .501961 0 rg (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.set_name ) Tj .729412 .129412 .129412 rg ("Other") Tj 0 0 0 rg  T*  T* /F3 10 Tf .25098 .501961 .501961 rg (#read property) Tj T* /F4 10 Tf .098039 .090196 .486275 rg (prop) Tj .4 .4 .4 rg (=) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.prop) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj /F4 10 Tf 0 0 0 rg  T*  T* /F3 10 Tf .25098 .501961 .501961 rg (#call method) Tj T* /F4 10 Tf 0 .501961 0 rg (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.methodName) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 551.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Copyright) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 539.6236 cm
+Q
+q
+1 0 0 1 62.69291 539.6236 cm
+Q
+q
+1 0 0 1 62.69291 527.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Documentation is under LGPLv3) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 521.6236 cm
+Q
+q
+1 0 0 1 62.69291 509.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Baboosh scripts are under BSD Licence) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 509.6236 cm
+Q
+ 
+endstream
+endobj
+% 'R32': class PDFPageLabels 
+32 0 obj
+% Document Root
+<< /Nums [ 0
+ 33 0 R
+ 1
+ 34 0 R
+ 2
+ 35 0 R
+ 3
+ 36 0 R ] >>
+endobj
+% 'R33': class PDFPageLabel 
+33 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R34': class PDFPageLabel 
+34 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R35': class PDFPageLabel 
+35 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R36': class PDFPageLabel 
+36 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+xref
+0 37
+0000000000 65535 f
+0000000113 00000 n
+0000000269 00000 n
+0000000434 00000 n
+0000000609 00000 n
+0000000786 00000 n
+0000000947 00000 n
+0000001118 00000 n
+0000001305 00000 n
+0000001599 00000 n
+0000001825 00000 n
+0000002140 00000 n
+0000002367 00000 n
+0000002668 00000 n
+0000002949 00000 n
+0000003108 00000 n
+0000003374 00000 n
+0000003500 00000 n
+0000003665 00000 n
+0000003849 00000 n
+0000004085 00000 n
+0000004264 00000 n
+0000004462 00000 n
+0000004657 00000 n
+0000004829 00000 n
+0000005016 00000 n
+0000005196 00000 n
+0000005350 00000 n
+0000005484 00000 n
+0000010793 00000 n
+0000015271 00000 n
+0000020414 00000 n
+0000023085 00000 n
+0000023217 00000 n
+0000023294 00000 n
+0000023371 00000 n
+0000023448 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(]\277.\007\003\364\215Kp\303mf\0145\027\364) (]\277.\007\003\364\215Kp\303mf\0145\027\364)] 
+
+ /Info 15 0 R
+ /Root 14 0 R
+ /Size 37 >>
+startxref
+23495
+%%EOF

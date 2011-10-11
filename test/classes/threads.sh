@@ -25,7 +25,6 @@ Thread::start(){
     local this=$1; shift
     local _pid=-1
 
-    eval _cmd="$this.run"
     eval $this.run &
     _pid=$!
 

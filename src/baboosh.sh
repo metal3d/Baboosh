@@ -33,6 +33,18 @@ _meta_class_delete_all(){
     exit $exit_code
 }
 
+#trapper function that call each destructor before to quit
+_meta_class_kill_all(){
+    local objects=$(alias -p | awk '/::__kill__/{ print $2}' | cut -f1 -d".")
+
+    local exit_code=0
+
+    for ob in $objects; do
+        eval $ob.__kill__ || exit_code=$?
+    done
+    exit $exit_code
+}
+
 #"new" create an object based on class
 #usage: new ClassType ObjName [args...]
 #@scope public
@@ -103,10 +115,15 @@ new(){
         eval $obj.__init__ $_init_args
     fi
 
-    #append desctuctor
+    #append delete desctuctor
     if [[ "$(type -t $class::__delete__)" == "function" ]]; then
         alias $obj.__delete__="$class::__delete__ $obj"
     fi
+    #append kill desctuctor
+    if [[ "$(type -t $class::__kill__)" == "function" ]]; then
+        alias $obj.__kill__="$class::__kill__ $obj"
+    fi
 }
 
-trap _meta_class_delete_all INT TERM
+trap _meta_class_kill_all INT TERM
+trap _meta_class_delete_all EXIT

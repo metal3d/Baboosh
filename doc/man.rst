@@ -149,7 +149,7 @@ To kill humans only if CTRL+C is pressed::
         eval $this.die
     }
 
-Note that ''__delete__'' method is called because anyway. This may change in the futur !
+Note that ''__delete__'' method is called anyway. This may change in the futur !
 
 Inheritance
 -----------

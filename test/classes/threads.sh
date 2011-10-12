@@ -48,7 +48,7 @@ Thread::join(){
 }
 
 #on destruction, kill child process
-Thread::__delete__(){
+Thread::__kill__(){
     echo "killing in"
     local this=$1; shift
     local pid=$(eval $this.pid)

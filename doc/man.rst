@@ -122,6 +122,35 @@ Constructor should not be declared in definition list, this is a special functio
 
 .. note:: inherited child class will call parent constructor implicitly.
 
+Destructors
+'''''''''''
+
+There are 2 kinds of destructors
+
+- ''__delete__'' that is called on exit (SIGEXIT)
+- ''__kill__'' that is called if script is killed (SIGINT and SIGTERM)
+
+As Constructor_, Destructors should not be declared in method list. You only have to write them if you need one or both.
+
+If you want to kill humans on exit::
+    
+    Human::__delete__(){
+        #you can kill humans
+        local this=$1; shift
+        eval $this.die
+    }
+
+This will kill humans objects when the script ends up.
+
+To kill humans only if CTRL+C is pressed::
+    
+    Human::__kill__(){
+        local this=$1; shift
+        eval $this.die
+    }
+
+Note that ''__delete__'' method is called because anyway. This may change in the futur !
+
 Inheritance
 -----------
 

@@ -151,6 +151,46 @@ Human::__init__(){
 .
 inherited child class will call parent constructor implicitly.
 .RE
+.SS Destructors
+.sp
+There are 2 kinds of destructors
+.INDENT 0.0
+.IP \(bu 2
+.
+\(aq\(aq__delete__\(aq\(aq that is called on exit (SIGEXIT)
+.IP \(bu 2
+.
+\(aq\(aq__kill__\(aq\(aq that is called if script is killed (SIGINT and SIGTERM)
+.UNINDENT
+.sp
+As \fI\%Constructor\fP, Destructors should not be declared in method list. You only have to write them if you need one or both.
+.sp
+If you want to kill humans on exit:
+.sp
+.nf
+.ft C
+Human::__delete__(){
+    #you can kill humans
+    local this=$1; shift
+    eval $this.die
+}
+.ft P
+.fi
+.sp
+This will kill humans objects when the script ends up.
+.sp
+To kill humans only if CTRL+C is pressed:
+.sp
+.nf
+.ft C
+Human::__kill__(){
+    local this=$1; shift
+    eval $this.die
+}
+.ft P
+.fi
+.sp
+Note that \(aq\(aq__delete__\(aq\(aq method is called because anyway. This may change in the futur !
 .SH INHERITANCE
 .sp
 It\(aqs possible to extend classes. For example, an Employee is an Human, so:

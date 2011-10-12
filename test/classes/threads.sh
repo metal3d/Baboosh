@@ -25,7 +25,8 @@ Thread::start(){
     local this=$1; shift
     local _pid=-1
 
-    eval $this.run &
+    local cmd="$this.run"
+    eval "($cmd) &"
     _pid=$!
 
     eval $this.set_status "running"
@@ -41,7 +42,16 @@ Thread::join(){
     _pidfile=/proc/$_pid
 
     while [[ -d $_pidfile ]]; do
-        sleep .1
+        sleep .01
     done
     eval $this.set_status "stopped"
+}
+
+#on destruction, kill child process
+Thread::__delete__(){
+    echo "killing in"
+    local this=$1; shift
+    local pid=$(eval $this.pid)
+    kill $pid
+    return $?
 }

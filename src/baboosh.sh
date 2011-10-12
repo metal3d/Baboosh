@@ -19,7 +19,18 @@ _meta_class_set_var(){
     local value="$@"
 
     alias ${obj}.${varname}="echo \"$value\""
+}
 
+#trapper function that call each destructor before to quit
+_meta_class_delete_all(){
+    local objects=$(alias -p | awk '/::__delete__/{ print $2}' | cut -f1 -d".")
+
+    local exit_code=0
+
+    for ob in $objects; do
+        eval $ob.__delete__ || exit_code=$?
+    done
+    exit $exit_code
 }
 
 #"new" create an object based on class
@@ -83,10 +94,19 @@ new(){
         _i=$((_i+1))
     done
     
+
+    #append constructor
     if [[ "$(type -t $class::__init__)" == "function" ]]; then
         #constructor found
         alias $obj.__init__="$class::__init__ $obj"
-         #call constructor with args redecorated
+        #call constructor with args redecorated
         eval $obj.__init__ $_init_args
     fi
+
+    #append desctuctor
+    if [[ "$(type -t $class::__delete__)" == "function" ]]; then
+        alias $obj.__delete__="$class::__delete__ $obj"
+    fi
 }
+
+trap _meta_class_delete_all INT TERM

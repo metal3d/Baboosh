@@ -49,9 +49,19 @@ Thread::join(){
 
 #on destruction, kill child process
 Thread::__kill__(){
-    echo "killing in"
     local this=$1; shift
     local pid=$(eval $this.pid)
+
+    #find children of the eval launched in start method
+    pids=$(ps --no-headers -o pid --ppid $pid)
+    #and kill them
+    for p in $pids
+    do
+        kill $p
+    done
+    #to be sure, kill eval command
     kill $pid
+
+    #return last kill return value
     return $?
 }

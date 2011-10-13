@@ -7,6 +7,8 @@
 Thread=(
     var pid
     var status
+    var fifo
+    var tmpdir
     function start
     function join
 )
@@ -17,6 +19,12 @@ Thread::__init__(){
 
     eval $this.set_status "stopped"
     eval $this.set_pid "-1"
+
+    #check a right temporary directory
+    local TMP="/tmp"
+    [[ -d /dev/shm ]] && TMP="/dev/shm"
+
+    eval $this.set_tmpdir $TMP
 }
 
 
@@ -25,25 +33,30 @@ Thread::start(){
     local this=$1; shift
     local _pid=-1
 
-    local cmd="$this.run"
+    local tmp=$(eval $this.tmpdir)
+
+    local fifo=$(mktemp -u $tmp/$this.thread_pid.XXXXXXXX)
+    mkfifo $fifo
+
+    local cmd="$this.run; echo done > $fifo"
     eval "($cmd) &"
     _pid=$!
 
+
     eval $this.set_status "running"
     eval $this.set_pid $_pid
-    
+    eval $this.set_fifo $fifo
 }
 
 
 #Wait pid to be stopped...
 Thread::join(){
     local this=$1; shift
-    local _pid=$(eval $this.pid)
-    _pidfile=/proc/$_pid
 
-    while [[ -d $_pidfile ]]; do
-        sleep .01
-    done
+    local fifo=$(eval $this.fifo)
+
+    #reading fifo is blocked while subshell is not stopped
+    cat $fifo | :
     eval $this.set_status "stopped"
 }
 
@@ -64,4 +77,11 @@ Thread::__kill__(){
 
     #return last kill return value
     return $?
+}
+
+Thread::__delete__(){
+    local this=$1; shift
+    #remove fifos...
+    local fifo=$(eval $this.fifo)
+    rm -f $fifo
 }

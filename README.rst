@@ -1,6 +1,9 @@
-============================
-Baboosh Object Oriented Bash
-============================
+=======
+Baboosh 
+=======
+--------------------
+Object Oriented Bash
+--------------------
 
 This is a simple bash script to include in yours to enable "pseudo oriented object" scripting method with Bash.
 
@@ -16,16 +19,41 @@ To be clear, I will try to help oobash project, but I chosen my way (another way
 OOP in Bash ? What an idea...
 '''''''''''''''''''''''''''''
 
-It's not a bad idea... Bash is a nice scripting system to help you to have maintainable little functions to call. OOP in Bash can help to be more "readable" and easily fixable. 
+It's not a bad idea... Bash is a nice scripting system to help you having maintainable little functions to call. OOP in Bash can help to be more "readable" and easily fixable. 
 
 Keep in mind that the main goal is not to "improve" bash to transform it to a large programming system, but only to add a "pseudo object system" to help the readers.
 
-How did you made ?
-''''''''''''''''''
+How this could work ?
+'''''''''''''''''''''
 
-That's not very complex. the oobash_ project implements a very large system with arrays and allows some inheritance. My project is not as well as oobash. It uses alias to keep objects and methods.
+That's not very complex. the oobash_ project implements a very large system with arrays. That's right, writting OOP bash script with it is maybe easier, but my method is a bit lighter. 
+
+My project is not as well as oobash. It uses alias to keep objects and methods.
 
 Yes, it's tricky :) But it works, and this is what I wanted !
+
+The real story
+''''''''''''''
+
+You wonder why I decided to write that kind of project ? Ok, I will explain. 
+
+I'm using Xmonad, a tiling window manager. To have some monitoring values on my task bar, I'm using "dzen". This bar can show some menus, but I need to launch several dzen bars at the same time because one that have a menu **is** a menu bar... 
+
+Because I'm mad, I decided to lauch every dzen bars into one script. I used the magic "&" statement to launch them in several subprocesses. But... when I killed the main scripts... some loops was still running. So, I used another trick => kill 0
+
+Writing 6 functions to be launched in the script was not elegant. And a dilem appeared: should I use another scripting language or maybe I can write something to let me write that kind of script with "OOP" style. And quickly, the "aliases" idea jumped into my mind.
+
+After some tests, I realized that my idea was not so bad... and allows me to create the "Thread" class. The story began !
+
+Is there a philosophy ?
+'''''''''''''''''''''''
+
+Yes, I've got 2 main ideas that I try to keep in mind:
+
+- no dependencies excepting what are installed by default in unix/linux systems (ps, gawk, sed, ...)
+- to allow modularity, see ''classes'' directory in ''test'' directory
+
+The main idea is to allow everybody to use my project with minimal requirement.
 
 Example ?
 '''''''''

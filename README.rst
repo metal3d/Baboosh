@@ -26,7 +26,7 @@ Keep in mind that the main goal is not to "improve" bash to transform it to a la
 How this could work ?
 '''''''''''''''''''''
 
-That's not very complex. the oobash_ project implements a very large system with arrays. That's right, writting OOP bash script with it is maybe easier, but my method is a bit lighter. 
+That's not very complex. Oobash_ project implements a very large system with arrays. That's right, writing OOP bash script with it is maybe easier, but my method is a bit lighter. 
 
 My project is not as well as oobash. It uses alias to keep objects and methods.
 
@@ -39,9 +39,9 @@ You wonder why I decided to write that kind of project ? Ok, I will explain.
 
 I'm using Xmonad, a tiling window manager. To have some monitoring values on my task bar, I'm using "dzen". This bar can show some menus, but I need to launch several dzen bars at the same time because one that have a menu **is** a menu bar... 
 
-Because I'm mad, I decided to lauch every dzen bars into one script. I used the magic "&" statement to launch them in several subprocesses. But... when I killed the main scripts... some loops was still running. So, I used another trick => kill 0
+Because I'm mad, I decided to launch every dzen bars into one script. I used the magic "&" statement to launch them in several subprocesses. But... when I killed the main scripts... some loops was still running. So, I used another trick => kill 0
 
-Writing 6 functions to be launched in the script was not elegant. And a dilem appeared: should I use another scripting language or maybe I can write something to let me write that kind of script with "OOP" style. And quickly, the "aliases" idea jumped into my mind.
+Writing 6 functions to be launched in the script was not elegant. And a dilemma appeared: should I use another scripting language or maybe I can write something to let me write that kind of script with "OOP" style. And quickly, the "aliases" idea jumped into my mind.
 
 After some tests, I realized that my idea was not so bad... and allows me to create the "Thread" class. The story began !
 

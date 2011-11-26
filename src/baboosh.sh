@@ -94,8 +94,8 @@ new(){
                     alias $obj.set_$data="_meta_class_set_var $obj $data"
                     ;;
                 extends)
+                    alias $obj.parent='eval "echo '${data}'"'
                     eval new $data $obj
-                     
                     ;;
                 *)
                     echo "$_type undefined"

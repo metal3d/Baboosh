@@ -67,12 +67,12 @@ endobj
 % 'Page1': class PDFPage 
 8 0 obj
 % Page dictionary
-<< /Contents 30 0 R
+<< /Contents 33 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 32 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -89,10 +89,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 14 0 R
+ /Dest [ 15 0 R
  /XYZ
  62.69291
- 523.1236
+ 459.3236
  0 ]
  /Rect [ 178.7229
  423.3736
@@ -105,12 +105,12 @@ endobj
 10 0 obj
 % Page dictionary
 << /Annots [ 9 0 R ]
- /Contents 31 0 R
+ /Contents 34 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 32 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -143,12 +143,12 @@ endobj
 12 0 obj
 % Page dictionary
 << /Annots [ 11 0 R ]
- /Contents 32 0 R
+ /Contents 35 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 32 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -171,9 +171,9 @@ endobj
  768.0236
  0 ]
  /Rect [ 133.2829
- 553.5736
+ 535.5736
  187.7429
- 565.5736 ]
+ 547.5736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -181,12 +181,12 @@ endobj
 14 0 obj
 % Page dictionary
 << /Annots [ 13 0 R ]
- /Contents 33 0 R
+ /Contents 36 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 32 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -197,175 +197,220 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R15': class PDFCatalog 
+% 'Page5': class PDFPage 
 15 0 obj
+% Page dictionary
+<< /Contents 37 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 32 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R16': class PDFCatalog 
+16 0 obj
 % Document Root
-<< /Outlines 17 0 R
- /PageLabels 34 0 R
+<< /Outlines 18 0 R
+ /PageLabels 38 0 R
  /PageMode /UseNone
- /Pages 29 0 R
+ /Pages 32 0 R
  /Type /Catalog >>
 endobj
-% 'R16': class PDFInfo 
-16 0 obj
+% 'R17': class PDFInfo 
+17 0 obj
 << /Author ()
- /CreationDate (D:20111012045409-01'00')
+ /CreationDate (D:20111126151437-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (Baboosh - OOP Bash) >>
 endobj
-% 'R17': class PDFOutlines 
-17 0 obj
-<< /Count 12
- /First 18 0 R
- /Last 28 0 R
+% 'R18': class PDFOutlines 
+18 0 obj
+<< /Count 15
+ /First 19 0 R
+ /Last 31 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-18 0 obj
+19 0 obj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
  699.0236
  0 ]
- /Next 19 0 R
- /Parent 17 0 R
+ /Next 20 0 R
+ /Parent 18 0 R
  /Title (About) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-19 0 obj
+20 0 obj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
  618.0236
  0 ]
- /Next 20 0 R
- /Parent 17 0 R
- /Prev 18 0 R
+ /Next 21 0 R
+ /Parent 18 0 R
+ /Prev 19 0 R
  /Title (Importing) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-20 0 obj
+21 0 obj
 << /Count 5
  /Dest [ 8 0 R
  /XYZ
  62.69291
  400.6236
  0 ]
- /First 21 0 R
- /Last 25 0 R
- /Next 26 0 R
- /Parent 17 0 R
- /Prev 19 0 R
+ /First 22 0 R
+ /Last 26 0 R
+ /Next 27 0 R
+ /Parent 18 0 R
+ /Prev 20 0 R
  /Title (Creating classes) >>
 endobj
-% 'Outline.12.0': class OutlineEntryObject 
-21 0 obj
+% 'Outline.14.0': class OutlineEntryObject 
+22 0 obj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
  367.6236
  0 ]
- /Next 22 0 R
- /Parent 20 0 R
+ /Next 23 0 R
+ /Parent 21 0 R
  /Title (class definition) >>
 endobj
-% 'Outline.12.1': class OutlineEntryObject 
-22 0 obj
+% 'Outline.14.1': class OutlineEntryObject 
+23 0 obj
 << /Dest [ 10 0 R
  /XYZ
  62.69291
  703.8236
  0 ]
- /Next 23 0 R
- /Parent 20 0 R
- /Prev 21 0 R
+ /Next 24 0 R
+ /Parent 21 0 R
+ /Prev 22 0 R
  /Title (Methods declaration) >>
 endobj
-% 'Outline.12.2': class OutlineEntryObject 
-23 0 obj
+% 'Outline.14.2': class OutlineEntryObject 
+24 0 obj
 << /Dest [ 10 0 R
  /XYZ
  62.69291
  270.2236
  0 ]
- /Next 24 0 R
- /Parent 20 0 R
- /Prev 22 0 R
+ /Next 25 0 R
+ /Parent 21 0 R
+ /Prev 23 0 R
  /Title (Using properties) >>
 endobj
-% 'Outline.12.3': class OutlineEntryObject 
-24 0 obj
+% 'Outline.14.3': class OutlineEntryObject 
+25 0 obj
 << /Dest [ 12 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 25 0 R
- /Parent 20 0 R
- /Prev 23 0 R
+ /Next 26 0 R
+ /Parent 21 0 R
+ /Prev 24 0 R
  /Title (Constructor) >>
 endobj
-% 'Outline.12.4': class OutlineEntryObject 
-25 0 obj
+% 'Outline.14.4': class OutlineEntryObject 
+26 0 obj
 << /Dest [ 12 0 R
  /XYZ
  62.69291
  550.8236
  0 ]
- /Parent 20 0 R
- /Prev 24 0 R
+ /Parent 21 0 R
+ /Prev 25 0 R
  /Title (Destructors) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-26 0 obj
-<< /Dest [ 12 0 R
+27 0 obj
+<< /Count 2
+ /Dest [ 12 0 R
  /XYZ
  62.69291
  210.4236
  0 ]
- /Next 27 0 R
- /Parent 17 0 R
- /Prev 20 0 R
+ /First 28 0 R
+ /Last 29 0 R
+ /Next 30 0 R
+ /Parent 18 0 R
+ /Prev 21 0 R
  /Title (Inheritance) >>
 endobj
-% 'Outline.4': class OutlineEntryObject 
-27 0 obj
+% 'Outline.15.0': class OutlineEntryObject 
+28 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 177.4236
+ 0 ]
+ /Next 29 0 R
+ /Parent 27 0 R
+ /Title (Extending class) >>
+endobj
+% 'Outline.15.1': class OutlineEntryObject 
+29 0 obj
 << /Dest [ 14 0 R
  /XYZ
  62.69291
- 519.6236
+ 501.6236
  0 ]
- /Next 28 0 R
- /Parent 17 0 R
- /Prev 26 0 R
+ /Parent 27 0 R
+ /Prev 28 0 R
+ /Title (Access to parent) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+30 0 obj
+<< /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 455.8236
+ 0 ]
+ /Next 31 0 R
+ /Parent 18 0 R
+ /Prev 27 0 R
  /Title (Tips) >>
 endobj
 % 'Outline.5': class OutlineEntryObject 
-28 0 obj
-<< /Dest [ 14 0 R
+31 0 obj
+<< /Dest [ 15 0 R
  /XYZ
  62.69291
- 227.0236
+ 163.2236
  0 ]
- /Parent 17 0 R
- /Prev 27 0 R
+ /Parent 18 0 R
+ /Prev 30 0 R
  /Title (Copyright) >>
 endobj
-% 'R29': class PDFPages 
-29 0 obj
+% 'R32': class PDFPages 
+32 0 obj
 % page tree
-<< /Count 4
+<< /Count 5
  /Kids [ 8 0 R
  10 0 R
  12 0 R
- 14 0 R ]
+ 14 0 R
+ 15 0 R ]
  /Type /Pages >>
 endobj
-% 'R30': class PDFStream 
-30 0 obj
+% 'R33': class PDFStream 
+33 0 obj
 % page stream
 << /Length 5210 >>
 stream
@@ -643,8 +688,8 @@ Q
  
 endstream
 endobj
-% 'R31': class PDFStream 
-31 0 obj
+% 'R34': class PDFStream 
+34 0 obj
 % page stream
 << /Length 4379 >>
 stream
@@ -841,10 +886,10 @@ Q
  
 endstream
 endobj
-% 'R32': class PDFStream 
-32 0 obj
+% 'R35': class PDFStream 
+35 0 obj
 % page stream
-<< /Length 5417 >>
+<< /Length 5429 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1056,7 +1101,7 @@ q
 1 0 0 1 62.69291 222.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Note that ''__delete__'' method is called because anyway. This may change in the futur !) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Note that ''__delete__'' method is called anyway. This may change in the futur !) Tj T* ET
 Q
 Q
 q
@@ -1066,14 +1111,20 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Inheritance) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 171.4236 cm
+1 0 0 1 62.69291 159.4236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Extending class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (It's possible to extend classes. For example, an Employee is an Human, so) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 78.22362 cm
+1 0 0 1 62.69291 84.22362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1083,10 +1134,10 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 84 re B*
+n -6 -6 468.6898 48 re B*
 Q
 q
-BT 1 0 0 1 0 62 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (Employee) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    extends Human) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (work) Tj T* .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (Employee::work) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* ET
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (Employee) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    extends Human) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (work) Tj T* ET
 Q
 Q
 Q
@@ -1095,14 +1146,14 @@ Q
  
 endstream
 endobj
-% 'R33': class PDFStream 
-33 0 obj
+% 'R36': class PDFStream 
+36 0 obj
 % page stream
-<< /Length 5632 >>
+<< /Length 4496 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 727.8236 cm
+1 0 0 1 62.69291 691.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1112,139 +1163,161 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
+n -6 -6 468.6898 72 re B*
 Q
 q
-BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (echo) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("working...") Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj T* ET
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (Employee::work) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (echo) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("working...") Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 695.8236 cm
+1 0 0 1 62.69291 659.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.298735 Tw (Now, Employee can birth, eat, sleep and die as Human declared those functions. Employee has got a) Tj T* 0 Tw (name, as declared into Human class.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 683.8236 cm
+1 0 0 1 62.69291 647.8236 cm
 Q
 q
-1 0 0 1 62.69291 576.8236 cm
+1 0 0 1 62.69291 558.8236 cm
 .960784 .960784 .862745 rg
-n 0 107 469.8898 -107 re f*
+n 0 89 469.8898 -89 re f*
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
-BT 1 0 0 1 6 81 Tm  T* ET
+BT 1 0 0 1 6 63 Tm  T* ET
 q
-1 0 0 1 16 76 cm
+1 0 0 1 16 58 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2.5 Tm /F6 12.5 Tf 15 TL (Caution!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 16 52 cm
+1 0 0 1 16 34 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Limitations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 16 46 cm
-Q
-q
-1 0 0 1 16 46 cm
-Q
-q
-1 0 0 1 16 34 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
+1 0 0 1 16 16 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (''extends'' must be the ) Tj /F2 10 Tf (very first ) Tj /F1 10 Tf (element in declaration list) Tj T* ET
 Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 16 28 cm
-Q
-q
-1 0 0 1 16 16 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (redeclaring a method overwrites the parent method. There is no way to access ''parent'') Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 16 16 cm
 Q
 q
 1 J
 1 j
 .662745 .662745 .662745 RG
 .5 w
-n 0 107 m 469.8898 107 l S
+n 0 89 m 469.8898 89 l S
 n 0 0 m 469.8898 0 l S
-n 0 0 m 0 107 l S
-n 469.8898 0 m 469.8898 107 l S
+n 0 0 m 0 89 l S
+n 469.8898 0 m 469.8898 89 l S
 Q
-Q
-q
-1 0 0 1 62.69291 570.8236 cm
 Q
 q
 1 0 0 1 62.69291 552.8236 cm
+Q
+q
+1 0 0 1 62.69291 534.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (As explained in ) Tj 0 0 .501961 rg (Constructor ) Tj 0 0 0 rg (section, Human) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 531.6236 cm
+1 0 0 1 62.69291 513.6236 cm
 q
 Q
 Q
 q
-1 0 0 1 62.69291 498.6236 cm
+1 0 0 1 62.69291 483.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Access to parent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.922339 Tw (When you extends a class, a "parent" access is allowed. Remember we're using bash... so it's a bit) Tj T* 0 Tw ("strange" to use but it works...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 84.42362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 360 re B*
+Q
+q
+BT 1 0 0 1 0 338 Tm 12 TL /F4 10 Tf .098039 .090196 .486275 rg (Animal) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    var name) Tj T* (    var ) Tj 0 .501961 0 rg (type) Tj T* (    ) Tj /F5 10 Tf (function ) Tj /F4 10 Tf 0 0 0 rg (eat) Tj T* .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (Animal::__init__) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj T* (    eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.set_name ) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.set_type ) Tj .098039 .090196 .486275 rg ($2) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* (Animal::eat) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj T* (    echo) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("I'm eating") Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* .098039 .090196 .486275 rg (Cat) Tj .4 .4 .4 rg (=\() Tj 0 0 0 rg  T* (    extends Animal) Tj T* (    ) Tj /F5 10 Tf 0 .501961 0 rg (function ) Tj /F4 10 Tf 0 0 0 rg (eat) Tj T* .4 .4 .4 rg (\)) Tj 0 0 0 rg  T*  T* (Cat::__init__) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj 0 0 0 rg  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#get parent to set type to mamifer) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (parent) Tj .4 .4 .4 rg (=) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf (eval echo) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.parent) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj /F4 10 Tf 0 0 0 rg  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#this call parent constructor whit arguments...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R37': class PDFStream 
+37 0 obj
+% page stream
+<< /Length 5598 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 499.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 264 re B*
+Q
+q
+BT 1 0 0 1 0 242 Tm 12 TL /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($parent) Tj 0 0 0 rg (.__init__ ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("Mamifer") Tj 0 0 0 rg  T* .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* (Cat::eat) Tj .4 .4 .4 rg (\(\){) Tj 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (this) Tj .4 .4 .4 rg (=) Tj .098039 .090196 .486275 rg ($1) Tj 0 0 0 rg (; ) Tj 0 .501961 0 rg (shift) Tj T* (    echo) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("I'm a cat, so I chased mouse then...") Tj 0 0 0 rg  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#getting parent) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (local ) Tj .098039 .090196 .486275 rg (parent) Tj .4 .4 .4 rg (=) Tj /F5 10 Tf 0 .501961 0 rg ($\() Tj /F4 10 Tf (eval echo) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg (.parent) Tj /F5 10 Tf 0 .501961 0 rg (\)) Tj /F4 10 Tf 0 0 0 rg  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (#you MUST send $this reference) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj 0 .501961 0 rg (eval) Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg ($parent) Tj 0 0 0 rg (.eat ) Tj .098039 .090196 .486275 rg ($this) Tj 0 0 0 rg ( mouse) Tj T* .4 .4 .4 rg (}) Tj 0 0 0 rg  T*  T* /F3 10 Tf .25098 .501961 .501961 rg (#create a new Cat) Tj T* /F4 10 Tf 0 0 0 rg (new Cat tom ) Tj .729412 .129412 .129412 rg ("Tom") Tj 0 0 0 rg  T* (tom.eat) Tj T*  T* /F3 10 Tf .25098 .501961 .501961 rg (#prints:) Tj T* (#I'm a cat, so I chased mouse then...) Tj T* (#I'm eating mouse) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 467.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .542093 Tw (This method is a pseudo static call, you must append '$this' reference to call parent. This is the only one) Tj T* 0 Tw (method we found to call parent methods keeping current object reference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 434.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tips) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 480.6236 cm
+1 0 0 1 62.69291 416.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Remember to use ''$\(...\)'' to get vars, this is easier to work with values) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 447.4236 cm
+1 0 0 1 62.69291 383.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1264,14 +1337,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 427.4236 cm
+1 0 0 1 62.69291 363.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Inside methods, ''this'' if passed as first argument, so you need to do) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 394.2236 cm
+1 0 0 1 62.69291 330.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1291,21 +1364,21 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 374.2236 cm
+1 0 0 1 62.69291 310.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (''shift'' is used to unset "$1".) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 356.2236 cm
+1 0 0 1 62.69291 292.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ("this" is now a variable unlike ''john'' which is an alias. So, to play with properties, do that) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 239.0236 cm
+1 0 0 1 62.69291 175.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1325,19 +1398,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 206.0236 cm
+1 0 0 1 62.69291 142.2236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Copyright) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 194.0236 cm
+1 0 0 1 62.69291 130.2236 cm
 Q
 q
-1 0 0 1 62.69291 194.0236 cm
+1 0 0 1 62.69291 130.2236 cm
 Q
 q
-1 0 0 1 62.69291 182.0236 cm
+1 0 0 1 62.69291 118.2236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1358,10 +1431,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 176.0236 cm
+1 0 0 1 62.69291 112.2236 cm
 Q
 q
-1 0 0 1 62.69291 164.0236 cm
+1 0 0 1 62.69291 100.2236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1382,49 +1455,57 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 164.0236 cm
+1 0 0 1 62.69291 100.2236 cm
 Q
  
 endstream
 endobj
-% 'R34': class PDFPageLabels 
-34 0 obj
+% 'R38': class PDFPageLabels 
+38 0 obj
 % Document Root
 << /Nums [ 0
- 35 0 R
+ 39 0 R
  1
- 36 0 R
+ 40 0 R
  2
- 37 0 R
+ 41 0 R
  3
- 38 0 R ] >>
+ 42 0 R
+ 4
+ 43 0 R ] >>
 endobj
-% 'R35': class PDFPageLabel 
-35 0 obj
+% 'R39': class PDFPageLabel 
+39 0 obj
 % None
 << /S /D
  /St 1 >>
 endobj
-% 'R36': class PDFPageLabel 
-36 0 obj
+% 'R40': class PDFPageLabel 
+40 0 obj
 % None
 << /S /D
  /St 2 >>
 endobj
-% 'R37': class PDFPageLabel 
-37 0 obj
+% 'R41': class PDFPageLabel 
+41 0 obj
 % None
 << /S /D
  /St 3 >>
 endobj
-% 'R38': class PDFPageLabel 
-38 0 obj
+% 'R42': class PDFPageLabel 
+42 0 obj
 % None
 << /S /D
  /St 4 >>
 endobj
+% 'R43': class PDFPageLabel 
+43 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
 xref
-0 39
+0 44
 0000000000 65535 f
 0000000113 00000 n
 0000000269 00000 n
@@ -1440,38 +1521,43 @@ xref
 0000002367 00000 n
 0000002683 00000 n
 0000002910 00000 n
-0000003212 00000 n
-0000003371 00000 n
-0000003637 00000 n
-0000003763 00000 n
-0000003928 00000 n
-0000004112 00000 n
-0000004348 00000 n
-0000004527 00000 n
-0000004725 00000 n
-0000004920 00000 n
-0000005110 00000 n
-0000005282 00000 n
-0000005469 00000 n
-0000005649 00000 n
-0000005803 00000 n
-0000005937 00000 n
-0000011246 00000 n
-0000015724 00000 n
-0000021240 00000 n
-0000026975 00000 n
-0000027107 00000 n
-0000027184 00000 n
-0000027261 00000 n
-0000027338 00000 n
+0000003211 00000 n
+0000003492 00000 n
+0000003651 00000 n
+0000003917 00000 n
+0000004043 00000 n
+0000004208 00000 n
+0000004392 00000 n
+0000004628 00000 n
+0000004807 00000 n
+0000005005 00000 n
+0000005200 00000 n
+0000005390 00000 n
+0000005562 00000 n
+0000005794 00000 n
+0000005973 00000 n
+0000006150 00000 n
+0000006330 00000 n
+0000006484 00000 n
+0000006627 00000 n
+0000011936 00000 n
+0000016414 00000 n
+0000021942 00000 n
+0000026537 00000 n
+0000032238 00000 n
+0000032383 00000 n
+0000032460 00000 n
+0000032537 00000 n
+0000032614 00000 n
+0000032691 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [([\244\233\025\244<\255\246\314\301\213z\036}eo) ([\244\233\025\244<\255\246\314\301\213z\036}eo)] 
+ [(\334\331\206\344X\024gC\305\261\342\225 \263\024\236) (\334\331\206\344X\024gC\305\261\342\225 \263\024\236)] 
 
- /Info 16 0 R
- /Root 15 0 R
- /Size 39 >>
+ /Info 17 0 R
+ /Root 16 0 R
+ /Size 44 >>
 startxref
-27385
+32738
 %%EOF

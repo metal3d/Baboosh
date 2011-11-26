@@ -154,6 +154,8 @@ Note that ''__delete__'' method is called anyway. This may change in the futur !
 Inheritance
 -----------
 
+Extending class
+'''''''''''''''
 It's possible to extend classes. For example, an Employee is an Human, so::
     
     Employee=(
@@ -169,11 +171,67 @@ Now, Employee can birth, eat, sleep and die as Human declared those functions. E
 
 .. caution:: Limitations 
    
-   - ''extends'' must be the **very first** element in declaration list
-   - redeclaring a method overwrites the parent method. There is no way to access ''parent''
+   ''extends'' must be the **very first** element in declaration list
 
 As explained in Constructor_ section, Human::__new__ is called when you instantiate Employee.
 
+Access to parent
+''''''''''''''''
+
+When you extends a class, a "parent" access is allowed. Remember we're using bash... so it's a bit "strange" to use but it works... ::
+    
+    Animal=(
+        var name
+        var type
+        function eat
+    )
+    
+    Animal::__init__(){
+        local this=$1; shift
+        eval $this.set_name $1
+        eval $this.set_type $2
+    }
+    
+    Animal::eat(){
+        local this=$1; shift
+        echo "I'm eating" $1    
+    }
+
+    Cat=(
+        extends Animal
+        function eat
+    )
+    
+    Cat::__init__(){
+        local this=$1; shift
+
+        #get parent to set type to mamifer
+        local parent=$(eval echo $this.parent)
+
+        #this call parent constructor whit arguments...
+        eval $parent.__init__ $this $1 "Mamifer"
+    }
+
+    Cat::eat(){
+        local this=$1; shift
+        echo "I'm a cat, so I chased mouse then..."
+
+        #getting parent
+        local parent=$(eval echo $this.parent)
+        
+        #you MUST send $this reference
+        eval $parent.eat $this mouse
+    }
+
+    #create a new Cat
+    new Cat tom "Tom"
+    tom.eat
+
+    #prints:
+    #I'm a cat, so I chased mouse then...
+    #I'm eating mouse
+
+This method is a pseudo static call, you must append '$this' reference to call parent. This is the only one method we found to call parent methods keeping current object reference.
 
 Tips
 ----

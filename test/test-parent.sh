@@ -30,7 +30,7 @@ CClass::upperfunc(){
     local this=$1; shift
     echo "Here is the chid upperfunc method, I will try to call parent..."
     local parent=$(eval $this.parent)
-    eval $parent::upperfunc
+    eval $parent::upperfunc $this
 }
 
 

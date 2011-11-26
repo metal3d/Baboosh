@@ -209,7 +209,7 @@ When you extends a class, a "parent" access is allowed. Remember we're using bas
         local parent=$(eval echo $this.parent)
 
         #this call parent constructor whit arguments...
-        eval $parent.__init__ $this $1 "Mamifer"
+        eval $parent::__init__ $this $1 "Mamifer"
     }
 
     Cat::eat(){
@@ -220,7 +220,7 @@ When you extends a class, a "parent" access is allowed. Remember we're using bas
         local parent=$(eval echo $this.parent)
         
         #you MUST send $this reference
-        eval $parent.eat $this mouse
+        eval $parent::eat $this mouse
     }
 
     #create a new Cat

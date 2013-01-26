@@ -95,7 +95,10 @@ new(){
                     ;;
                 extends)
                     alias $obj.parent='eval "echo '${data}'"'
-                    eval new $data $obj
+                    # eval new $data $obj
+                    # Modified by Nischith
+                    # pass arguments to the parent constructor
+                    eval new $data $obj $_init_args         
                     ;;
                 *)
                     echo "$_type undefined"

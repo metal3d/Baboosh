@@ -89,15 +89,23 @@ new(){
                     alias $obj.$data="$class::$data $obj"
                     ;;
                 var)
+                    #extract default value if exists - Added by Nischith
+                    local default_val=$(echo $data | awk -F= '{print $2}')
+    	            data=$(echo $data | awk -F= '{print $1}')
+
                     #set aliases to set and get vars
                     alias $obj.$data='eval "echo $'${obj}__${data}'"'
                     alias $obj.set_$data="_meta_class_set_var $obj $data"
+
+                    #set default value if exists - Added by Nischith
+                    if [ "${default_val}" != "" ]; then
+    		            eval $obj.set_$data "${default_val}"
+		            fi
                     ;;
                 extends)
                     alias $obj.parent='eval "echo '${data}'"'
-                    # eval new $data $obj
-                    # Modified by Nischith
-                    # pass arguments to the parent constructor
+                    #eval new $data $obj
+                    #pass arguments to the parent constructor - Modified by Nischith
                     eval new $data $obj $_init_args         
                     ;;
                 *)

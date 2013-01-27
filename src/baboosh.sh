@@ -100,7 +100,7 @@ new(){
                     #set default value if exists - Added by Nischith
                     if [ "${default_val}" != "" ]; then
     		            eval $obj.set_$data "${default_val}"
-		            fi
+	            fi
                     ;;
                 extends)
                     alias $obj.parent='eval "echo '${data}'"'
